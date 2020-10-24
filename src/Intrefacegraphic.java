@@ -25,7 +25,7 @@ public class Intrefacegraphic extends JFrame {
 	private JPanel contentPane;
 
 	/**
-	 * Launch the application.
+	 * Launch the app
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -41,7 +41,7 @@ public class Intrefacegraphic extends JFrame {
 	}
 
 	/**
-	 * Create the frame.
+	 * Create the App frame.
 	 * @throws AWTException 
 	 */
 	public Intrefacegraphic() throws AWTException {
@@ -55,17 +55,17 @@ public class Intrefacegraphic extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JRadioButton rdbtnNewRadioButton = new JRadioButton("Rapide");
+		JRadioButton rdbtnNewRadioButton = new JRadioButton("Speed");
 		rdbtnNewRadioButton.setBackground(Color.WHITE);
 		rdbtnNewRadioButton.setBounds(37, 127, 77, 23);
 		contentPane.add(rdbtnNewRadioButton);
 		
-		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Moyen(recommand\u00E9)");
+		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Normal(recommand\u00E9)");
 		rdbtnNewRadioButton_1.setBackground(Color.WHITE);
 		rdbtnNewRadioButton_1.setBounds(146, 127, 159, 23);
 		contentPane.add(rdbtnNewRadioButton_1);
 		
-		JRadioButton rdbtnNewRadioButton_2 = new JRadioButton("Lent");
+		JRadioButton rdbtnNewRadioButton_2 = new JRadioButton("Slow");
 		rdbtnNewRadioButton_2.setBackground(Color.WHITE);
 		rdbtnNewRadioButton_2.setBounds(331, 127, 109, 23);
 		contentPane.add(rdbtnNewRadioButton_2);
@@ -91,15 +91,15 @@ public class Intrefacegraphic extends JFrame {
 		lblNewLabel.setBounds(200, 34, 91, 23);
 		contentPane.add(lblNewLabel);
 		
-		JLabel lblNewLabel_1 = new JLabel("Vitesse du chargement");
+		JLabel lblNewLabel_1 = new JLabel("Loading speed");
 		lblNewLabel_1.setBounds(201, 85, 133, 23);
 		contentPane.add(lblNewLabel_1);
 		
-		JLabel lblNewLabel_2 = new JLabel("Temp du bot");
+		JLabel lblNewLabel_2 = new JLabel("Time of the bot");
 		lblNewLabel_2.setBounds(200, 179, 76, 14);
 		contentPane.add(lblNewLabel_2);
 		
-		JButton btnNewButton = new JButton("Valid\u00E9");
+		JButton btnNewButton = new JButton("Start\u00E9");
 		
 		Robot r1 = new Robot();
 		btnNewButton.addActionListener(new ActionListener() {
